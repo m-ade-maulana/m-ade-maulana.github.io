@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	line-height: 26px;
 	font-size: 15px;
@@ -27,6 +31,7 @@ h6 {
 a {
 	text-decoration: none;
 	transition: all 0.3s ease-in-out;
+
 	&:hover,
 	&:focus {
 		text-decoration: none;
@@ -61,9 +66,11 @@ button:focus {
 .ml-15 {
 	margin-left: 15px;
 }
+
 .ml-20 {
 	margin-left: 20px;
 }
+
 // Margin Top
 .mt-50 {
 	margin-top: 50px;
